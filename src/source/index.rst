@@ -1,22 +1,9 @@
-.. WTactics Rulebook documentation master file, created by
-   sphinx-quickstart2 on Thu May 17 15:44:25 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+WTactics Rulebook
++================
 
-Welcome to WTactics Rulebook's documentation!
-=============================================
+An experiment to create a rulebook organically using git.
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
