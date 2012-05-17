@@ -5,7 +5,7 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build2
 PAPER         =
-BUILDDIR      = ..
+BUILDDIR      = .
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -27,15 +27,26 @@ gh-pages:
 	git checkout gh-pages
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
-	git add ..
+	git add .
 	git commit -am "Updated documentation."
 	git push origin gh-pages
 	@echo "Documentation published: https://aspidites.github.com/wtactics-doc"
 
 clean:
-	-rm -rf $(BUILDDIR)/*
+	-rm -rf $(BUILDDIR)/*.html \
+		$(BUILDDIR)/*.js \
+		$(BUILDDIR)/*.inv \
+		$(BUILDDIR)/doctrees/ \
+		$(BUILDDIR)/html/ \
+		$(BUILDDIR)/latex/ 
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+
+latexpdf:
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	@echo "Running LaTeX files through pdflatex..."
+	$(MAKE) -C $(BUILDDIR)/latex all-pdf
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
