@@ -18,10 +18,12 @@ helping to develop rules. As such, the only files that ever need to be
 edited all reside in the source subdirector. 
 
 Once finished editing, documentation can be generated as follows::
+
         make html
 
 If you have your own fork or push permissions, you may publish your 
 changes immediately, using this command instead::
+
         make gh-pages
 
 There are three ways to contribute to this project:
