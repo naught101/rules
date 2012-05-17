@@ -30,7 +30,7 @@ gh-pages:
 	git add .
 	git commit -am "Updated documentation."
 	git push origin gh-pages
-	@echo "Documentation published: WTactics.github.com/wtctics-doc/"
+	@echo "Documentation published: wtactics.github.com/wtctics-doc/"
 
 clean:
 	-rm -rf $(BUILDDIR)/*.html \
