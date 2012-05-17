@@ -38,7 +38,8 @@ clean:
 		$(BUILDDIR)/*.inv \
 		$(BUILDDIR)/doctrees/ \
 		$(BUILDDIR)/html/ \
-		$(BUILDDIR)/latex/ 
+		$(BUILDDIR)/latex/ \
+		$(BUILDDIR)/_*
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
