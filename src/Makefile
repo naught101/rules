@@ -31,7 +31,6 @@ gh-pages:
 	git commit -am "Updated documentation."
 	git push origin gh-pages
 	@echo "Documentation published: https://aspidites.github.com/wtactics-doc"
-	@echo "Switching back to master branch..."
 
 clean:
 	-rm -rf $(BUILDDIR)/*
