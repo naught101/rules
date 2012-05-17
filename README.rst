@@ -2,6 +2,7 @@ Welcome
 =======
 Welcome to the (unofficial) WTactics Rulebook development project. 
 The goal of this project is twofold:
+
         * help produce a cleaner version of the WTactics rulebook 
           that can optionally be downloaded as PDF.
 
