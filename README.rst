@@ -2,7 +2,8 @@ Welcome
 =======
 Welcome to the (unofficial) WTactics Rulebook development project. 
 The goal of this project is twofold:
-        * help produce a cleaner version of the WTactics rulebook that can optionally be downloaded as PDF.
+        * help produce a cleaner version of the WTactics rulebook 
+          that can optionally be downloaded as PDF.
         * experiment with a differnt style of rule creation
 
 By leveraging github's tools and developing convenience scripts,
@@ -26,6 +27,7 @@ changes immediately, using this command instead::
         make gh-pages
 
 There are three ways to contribute to this project:
+
         * fork the project and send pull requests with your changes
         * request membership in the wtactics organization
         * send a patch (either pasting it in an issue, or emailing it to
