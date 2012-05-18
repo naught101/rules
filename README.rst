@@ -27,11 +27,10 @@ changes immediately, using this command instead::
         make gh-pages
 
 There are three ways to contribute to this project:
-
-        * fork the project and send pull requests with your changes
-        * request membership in the wtactics organization
-        * send a patch (either pasting it in an issue, or emailing it to
-          me at aspidites.wtactics.org)
+* fork the project and send pull requests with your changes
+* request membership in the wtactics organization
+* send a patch (either pasting it in an issue, or emailing it to
+  me at aspidites.wtactics.org)
 
 If you happen to have a github account, files can be edited directly by
 clicking on the file name, then clicking the "Edit this file" button in the
