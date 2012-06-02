@@ -86,7 +86,10 @@ pygments_style = 'sphinx'
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
-extlinks = {'email': ('mailto:%s@wtactics.org', '')}
+extlinks = {
+  'email': ('mailto:%s@wtactics.org', ''),
+  'website': ('http://wtactics.org/%s', '')
+}
 
 # -- Options for HTML output ---------------------------------------------------
 
