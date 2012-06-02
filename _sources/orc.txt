@@ -19,3 +19,5 @@ the following guidelines:
 * Edits which alter the semantics of gameplay must be approved by :email:`snowdrop`
   first. Examples: creation/removal of game mechanics or modifications that 
   change the semantics of existing
+
+If you have any questions, feel free to visit the :website:`forum`.
