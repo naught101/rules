@@ -31,10 +31,7 @@ gh-pages:
 	git commit -am "Updated documentation."
 	git push origin gh-pages
 	@echo "Documentation published: wtactics.github.com/rulebook/"
-<<<<<<< HEAD
-=======
 	git checkout master -f
->>>>>>> master
 	make clean
 
 clean:
