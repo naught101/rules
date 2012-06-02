@@ -1,10 +1,13 @@
-.. warning::
+Original Rules Concept
+######################
+
+.. todo::
+    Determine if there is a more general name for this as it relates to the
+    GDD and LDD; something that can be used with other rules.
+
+.. note::
     This document represents a work in progress. It's contents are liable to
     change at any given moment.
-
-Introduction
-############
-.. todo:: Write an introduction
 
 Contributing to These Rules
 ===========================
@@ -21,3 +24,7 @@ the following guidelines:
   change the semantics of existing
 
 If you have any questions, feel free to visit the :website:`forum`.
+
+Setting up the Game
+===================
+

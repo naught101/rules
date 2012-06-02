@@ -1,7 +1,8 @@
 WTactics Rulebook
 =================
 
-An experiment to create a rulebook organically using git.
+WTactics is an open source project that is both 
+`gratis and libre <http://en.wikipedia.org/wiki/Gratis_versus_libre>`_.
 
 .. toctree::
    :maxdepth: 2
