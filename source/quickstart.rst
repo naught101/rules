@@ -90,9 +90,7 @@ enough to recognize that there exists two layouts.
 Table Setup
 -----------
 For a two-player game, each player has five zones which face each other as
-follows:
-
-::
+follows::
 
    +-------+------+---------Player 2----+
    |       | Deck |                     |
