@@ -29,6 +29,7 @@ gh-pages:
 	git commit -a
 	git push origin master
 	git checkout gh-pages
+	git pull master
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
 	git add .
