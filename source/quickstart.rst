@@ -11,11 +11,15 @@ WTactics. Rather than explaining everything about the game *before* you play,
 it is intended that you keep this guide beside you *during* a game as a quick
 reference. This guide is structured to follow the logical sequence of a game of
 WTactics. As such, qualities about the game are only revealed once they are
-needed.
+needed. Should you find yourself longing for more detail, links to the
+exhaustive rulebook have been included for your convenience.
 
-Setup
------
+Basic Card Anatomy
+------------------
 
+
+Table Setup
+-----------
 For a two-player game, each player has five zones which face each other as
 follows:
 
@@ -46,7 +50,6 @@ die, or playing rock-paper-scissors.
 
 Turn Structure
 --------------
-
 Each turn consists of a number of phases which dictate which cards may be
 played, by whom, and he conditions under which those cards may be played. The
 following subsections explain exactly what those are, so don't worry if that
@@ -54,49 +57,49 @@ doesn't make sense right now.
 
 Unmark/Unassign Phase
 ~~~~~~~~~~~~~~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Upkeep
 ~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Draw
 ~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Play
 ~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Move/Attack
 ~~~~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Entrance
 ~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
 
 Discard
 ~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo:
+    * describe what happens during this phase
+    * break down terms or concepts introduced by this phase
+    * introduce zones affected by this phase
