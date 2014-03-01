@@ -142,12 +142,12 @@ times as he wishes and is able.
       If a player decides to perform three mulligans in a game that starts
       by drawing seven cards, he would:
          
-         * return those seven cards to the deck, shuffle, and draw seven
-           more
-         
-         * return those seven cards to the deck, shuffle, and raw *six* more
+      * return those seven cards to the deck, shuffle, and draw seven
+        more
+      
+      * return those seven cards to the deck, shuffle, and raw *six* more
 
-         * return those six cards to the deck and draw *five* more
+      * return those six cards to the deck and draw *five* more
       
 
 Unmark/Unassign Phase
