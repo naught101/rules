@@ -56,25 +56,98 @@ WTactics. Rather than explaining everything about the game <em>before</em> you p
 it is intended that you keep this guide beside you <em>during</em> a game as a quick
 reference. This guide is structured to follow the logical sequence of a game of
 WTactics. As such, qualities about the game are only revealed once they are
-needed.</p>
+needed. Should you find yourself longing for more detail, links to the
+exhaustive rulebook have been included for your convenience.</p>
 </div>
-<div class="section" id="setup">
-<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="basic-card-anatomy">
+<h2>Basic Card Anatomy<a class="headerlink" href="#basic-card-anatomy" title="Permalink to this headline">¶</a></h2>
+<p>In every Trading Card Game (TCG) the most important component (other than the
+player of course!) is the card. In this section, we introduce just enough
+information about the parts of a card to get you started. More detailed
+information (such as that which might be useful to collectors or card
+designers) may be found in the official rulebook.</p>
+<p>While there are numerous card <em>types</em>, they can be more generally categorized
+by one of two layouts:</p>
+<dl class="glossary docutils">
+<dt id="term-creature-layout">Creature Layout</dt>
+<dd><p class="first">This layout is only used for creature types:</p>
+<div class="last highlight-python"><div class="highlight"><pre>+-----------------------+------+
+|                       |      |
+|                       +------+
+|                              |
+|                          +---+
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          +---+
+|                              |
++------------------------------+
+|               |              |
+|               +--------------+
+|               |              |
+|               +--------------+
+|                              |
+|                              |
+|                              |
+|                  +-----+-----+
+|                  |     |     |
++------------------+-----+-----+
+</pre></div>
+</div>
+</dd>
+<dt id="term-support-layout">Support Layout</dt>
+<dd><p class="first">All other card types use this layout:</p>
+<div class="last highlight-python"><div class="highlight"><pre>+--------------+--------+------+
+|              |        |      |
++--------------+        +------+
+|              |               |
++--------------+           +---+
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          |   |
+|                          +---+
+|                              |
++------------------------------+
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
++------------------------------+
+</pre></div>
+</div>
+</dd>
+</dl>
+<p>Soon, we will discuss the different parts of a card, but for now it should be
+enough to recognize that there exists two layouts.</p>
+</div>
+<div class="section" id="table-setup">
+<h2>Table Setup<a class="headerlink" href="#table-setup" title="Permalink to this headline">¶</a></h2>
 <p>For a two-player game, each player has five zones which face each other as
 follows:</p>
 <div class="highlight-python"><div class="highlight"><pre>+-------+------+---------Player 2----+
 |       | Deck |                     |
 +-------+------+---------------------+
-               |                     |
-               +---------------------+
-               |                     |
-               +=====================+
-               |                     |
-               +---------------------+
-               |                     |
-               +---------------------+------+-------+
-               |                     | Deck |       |
-               +-Player 1------------+------+-------+
+|                     |
++---------------------+
+|                     |
++=====================+
+|                     |
++---------------------+
+|                     |
++---------------------+------+-------+
+|                     | Deck |       |
++-Player 1------------+------+-------+
 </pre></div>
 </div>
 <p>The astute reader might have noticed that asside from each player&#8217;s side being
@@ -93,59 +166,24 @@ following subsections explain exactly what those are, so don&#8217;t worry if th
 doesn&#8217;t make sense right now.</p>
 <div class="section" id="unmark-unassign-phase">
 <h3>Unmark/Unassign Phase<a class="headerlink" href="#unmark-unassign-phase" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="upkeep">
 <h3>Upkeep<a class="headerlink" href="#upkeep" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="draw">
 <h3>Draw<a class="headerlink" href="#draw" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="play">
 <h3>Play<a class="headerlink" href="#play" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="move-attack">
 <h3>Move/Attack<a class="headerlink" href="#move-attack" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="entrance">
 <h3>Entrance<a class="headerlink" href="#entrance" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 <div class="section" id="discard">
 <h3>Discard<a class="headerlink" href="#discard" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li>describe what happens during this phase</li>
-<li>break down terms or concepts introduced by this phase</li>
-<li>introduce zones affected by this phase</li>
-</ul>
 </div>
 </div>
 </div>
@@ -160,7 +198,8 @@ doesn&#8217;t make sense right now.</p>
   <ul>
 <li><a class="reference internal" href="#">Quick Start</a><ul>
 <li><a class="reference internal" href="#introduction">Introduction</a></li>
-<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#basic-card-anatomy">Basic Card Anatomy</a></li>
+<li><a class="reference internal" href="#table-setup">Table Setup</a></li>
 <li><a class="reference internal" href="#turn-structure">Turn Structure</a><ul>
 <li><a class="reference internal" href="#unmark-unassign-phase">Unmark/Unassign Phase</a></li>
 <li><a class="reference internal" href="#upkeep">Upkeep</a></li>
