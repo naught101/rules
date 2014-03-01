@@ -40,3 +40,63 @@ properly labelled, the only identified zone seems to be the "Deck" zone. This
 is done on purpose. Each of the other zones will be revealed once the become
 important to the game. For now, each player should simply place their decks 
 **face down** in the appropriate their respective "Deck" zones.
+
+Once each player is ready decide who goes first by flipping a coin, rolling a
+die, or playing rock-paper-scissors.
+
+Turn Structure
+--------------
+
+Each turn consists of a number of phases which dictate which cards may be
+played, by whom, and he conditions under which those cards may be played. The
+following subsections explain exactly what those are, so don't worry if that
+doesn't make sense right now.
+
+Unmark/Unassign Phase
+~~~~~~~~~~~~~~~~~~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Upkeep
+~~~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Draw
+~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Play
+~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Move/Attack
+~~~~~~~~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Entrance
+~~~~~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
+
+Discard
+~~~~~~~
+
+* describe what happens during this phase
+* break down terms or concepts introduced by this phase
+* introduce zones affected by this phase
