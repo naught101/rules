@@ -24,6 +24,7 @@ help:
 gh-pages:
 	@echo
 	@echo "Switching to gh-pages branch..."
+	make clean
 	# prompt for a commit message 
 	git commit -a
 	git checkout gh-pages
@@ -34,7 +35,6 @@ gh-pages:
 	git push origin gh-pages
 	@echo "Documentation published: wtactics.github.com/rulebook/"
 	git checkout master -f
-	make clean
 
 clean:
 	-rm -rf $(BUILDDIR)/*.html \
@@ -46,11 +46,13 @@ clean:
 		$(BUILDDIR)/_*
 
 html:
+	make clean
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 latexpdf:
+	make clean
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
