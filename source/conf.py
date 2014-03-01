@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# WTactics Rulebook documentation build configuration file, created by
+# WTactics Rulebook build configuration file, created by
 # sphinx-quickstart2 on Thu May 17 15:44:25 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -106,7 +106,7 @@ html_theme = 'default'
 #html_theme_path = []
 
 # The name for this set of Sphinx documents.  If None, it defaults to
-# "<project> v<release> documentation".
+# "<project> v<release>".
 #html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
@@ -187,7 +187,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'WTacticsRulebook.tex', u'WTactics Rulebook Documentation',
+  ('index', 'WTacticsRulebook.tex', u'WTactics Rulebook',
    u'WTactics Community', 'manual'),
 ]
 
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'wtacticsrulebook', u'WTactics Rulebook Documentation',
+    ('index', 'wtacticsrulebook', u'WTactics Rulebook',
      [u'WTactics Community'], 1)
 ]
 
@@ -231,7 +231,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'WTacticsRulebook', u'WTactics Rulebook Documentation',
+  ('index', 'WTacticsRulebook', u'WTactics Rulebook',
    u'WTactics Community', 'WTacticsRulebook', 'One line description of project.',
    'Miscellaneous'),
 ]
