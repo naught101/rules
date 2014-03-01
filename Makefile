@@ -24,6 +24,8 @@ help:
 gh-pages:
 	@echo
 	@echo "Switching to gh-pages branch..."
+	# prompt for a commit message 
+	git commit -a
 	git checkout gh-pages
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
