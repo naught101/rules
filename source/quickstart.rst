@@ -11,29 +11,102 @@ WTactics. Rather than explaining everything about the game *before* you play,
 it is intended that you keep this guide beside you *during* a game as a quick
 reference. This guide is structured to follow the logical sequence of a game of
 WTactics. As such, qualities about the game are only revealed once they are
-needed.
+needed. Should you find yourself longing for more detail, links to the
+exhaustive rulebook have been included for your convenience.
 
-Setup
------
+Basic Card Anatomy
+------------------
+In every Trading Card Game (TCG) the most important component (other than the
+player of course!) is the card. In this section, we introduce just enough
+information about the parts of a card to get you started. More detailed
+information (such as that which might be useful to collectors or card
+designers) may be found in the official rulebook. 
 
+While there are numerous card *types*, they can be more generally categorized
+by one of two layouts:
+
+.. glossary::
+
+   Creature Layout
+      This layout is only used for creature types::
+
+         +-----------------------+------+
+         |                       |      |
+         |                       +------+
+         |                              |
+         |                          +---+
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          +---+
+         |                              |
+         +------------------------------+
+         |               |              |
+         |               +--------------+
+         |               |              |
+         |               +--------------+
+         |                              |
+         |                              |
+         |                              |
+         |                  +-----+-----+
+         |                  |     |     |
+         +------------------+-----+-----+
+
+   Support Layout
+      All other card types use this layout::
+
+         +--------------+--------+------+
+         |              |        |      |
+         +--------------+        +------+
+         |              |               |
+         +--------------+           +---+
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          |   |
+         |                          +---+
+         |                              |
+         +------------------------------+
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         |                              |
+         +------------------------------+
+
+Soon, we will discuss the different parts of a card, but for now it should be
+enough to recognize that there exists two layouts.
+
+
+Table Setup
+-----------
 For a two-player game, each player has five zones which face each other as
 follows:
 
 ::
 
-    +-------+------+---------Player 2----+
-    |       | Deck |                     |
-    +-------+------+---------------------+
-                   |                     |
-                   +---------------------+
-                   |                     |
-                   +=====================+
-                   |                     |
-                   +---------------------+
-                   |                     |
-                   +---------------------+------+-------+
-                   |                     | Deck |       |
-                   +-Player 1------------+------+-------+
+   +-------+------+---------Player 2----+
+   |       | Deck |                     |
+   +-------+------+---------------------+
+   |                     |
+   +---------------------+
+   |                     |
+   +=====================+
+   |                     |
+   +---------------------+
+   |                     |
+   +---------------------+------+-------+
+   |                     | Deck |       |
+   +-Player 1------------+------+-------+
 
 The astute reader might have noticed that asside from each player's side being
 properly labelled, the only identified zone seems to be the "Deck" zone. This
@@ -46,7 +119,6 @@ die, or playing rock-paper-scissors.
 
 Turn Structure
 --------------
-
 Each turn consists of a number of phases which dictate which cards may be
 played, by whom, and he conditions under which those cards may be played. The
 following subsections explain exactly what those are, so don't worry if that
@@ -54,49 +126,49 @@ doesn't make sense right now.
 
 Unmark/Unassign Phase
 ~~~~~~~~~~~~~~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Upkeep
 ~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Draw
 ~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Play
 ~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Move/Attack
 ~~~~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Entrance
 ~~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase
 
 Discard
 ~~~~~~~
-
-* describe what happens during this phase
-* break down terms or concepts introduced by this phase
-* introduce zones affected by this phase
+.. todo::
+   * describe what happens during this phase
+   * break down terms or concepts introduced by this phase
+   * introduce zones affected by this phase

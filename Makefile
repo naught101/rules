@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    = -W
-SPHINXBUILD   = sphinx-build2
+SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = .
 
@@ -24,7 +24,12 @@ help:
 gh-pages:
 	@echo
 	@echo "Switching to gh-pages branch..."
+	make clean
+	# prompt for a commit message 
+	git commit -a
+	git push origin master
 	git checkout gh-pages
+	git merge -X theirs master
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
 	git add .
@@ -32,7 +37,6 @@ gh-pages:
 	git push origin gh-pages
 	@echo "Documentation published: http://wtactics.github.com/rulebook/"
 	git checkout master -f
-	make clean
 
 clean:
 	-rm -rf $(BUILDDIR)/*.html \
@@ -44,11 +48,13 @@ clean:
 		$(BUILDDIR)/_*
 
 html:
+	make clean
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 latexpdf:
+	make clean
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
