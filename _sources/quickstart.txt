@@ -120,7 +120,35 @@ Turn Structure
 Each turn consists of a number of phases which dictate which cards may be
 played, by whom, and he conditions under which those cards may be played. The
 following subsections explain exactly what those are, so don't worry if that
-doesn't make sense right now.
+doesn't make sense right now. Once one player completes all the phases as
+outlined below, it is the next player's turn. 
+
+Mulligan
+~~~~~~~~
+At the start of a player's first turn he is allowed to :term:`mulligan` as many
+times as he wishes and is able.
+
+.. glossary:: 
+
+   mulligan
+      To mulligan means to shuffle the cards drawn back into the deck and draw
+      the appropriate amount of cards. During the first mulligan, the
+      appropriate amount of cards is the same amount of cards returned to the
+      deck. In subsequent mulligans, the appropriate amount of cards is the 
+      number of cards returned to the deck *minus* one.
+
+      Example:
+
+         If a player decides to perform three mulligans in a game that starts
+         by drawing seven cards, he would:
+            
+            * return those seven cards to the deck, shuffle, and draw seven
+              more
+            
+            * return those seven cards to the deck, shuffle, and raw *six* more
+
+            * return those six cards to the deck and draw *five* more
+      
 
 Unmark/Unassign Phase
 ~~~~~~~~~~~~~~~~~~~~~
