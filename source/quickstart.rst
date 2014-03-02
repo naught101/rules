@@ -1,5 +1,9 @@
-Intro.
-======
+.. warning:: 
+   This is an expirimental build of this document, which is under rapid
+   development.
+
+Intro
+=====
 
 Disclaimer & info
 -----------------
