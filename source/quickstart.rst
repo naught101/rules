@@ -125,11 +125,10 @@ outlined below, it is the next player's turn.
 
 Mulligan
 ~~~~~~~~
-At the start of a player's first turn he is allowed to :term:`mulligan` as many
-times as he wishes and is able.
+At the start of a match, each player is allowed to :term:`mulligan` as many
+times as he desires.
 
 .. glossary:: 
-
    mulligan
       To mulligan means to shuffle the cards drawn back into the deck and draw
       the appropriate amount of cards. During the first mulligan, the
@@ -156,6 +155,14 @@ Unmark/Unassign Phase
    * describe what happens during this phase
    * break down terms or concepts introduced by this phase
    * introduce zones affected by this phase
+
+During this phase, a player must unmark all marked cards and
+chose which cards he'd like to :term:`assign` or unassign.
+
+.. glossary::
+   mark 
+      A card becomes marked 
+
 
 Upkeep
 ~~~~~~
