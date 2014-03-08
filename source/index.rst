@@ -1,7 +1,9 @@
-WTactics Rulebook
-=================
+WTactics Quick Start Guide
+==========================
 
-An experiment to create a rulebook organically using git.
+.. warning:: 
+   This is an expirimental build of this document, which is under rapid
+   development.
 
 .. toctree::
    :titlesonly:
