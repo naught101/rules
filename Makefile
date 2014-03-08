@@ -6,7 +6,6 @@ SPHINXOPTS    = -W
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = .
-BRANCH 		  = $(git symbolic-ref --short -q HEAD)
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -28,16 +27,16 @@ gh-pages:
 	make clean
 	# prompt for a commit message 
 	git commit -a
-	git push origin $(BRANCH)
+	git push origin master
 	git checkout gh-pages
-	git merge -X theirs $(BRANCH)
+	git merge -X theirs master
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
 	git add .
 	git commit -am "Updated documentation."
 	git push origin gh-pages
 	@echo "Documentation published: wtactics.github.com/rulebook/"
-	git checkout $(BRANCH) -f
+	git checkout master -f
 
 clean:
 	-rm -rf $(BUILDDIR)/*.html \
