@@ -153,7 +153,7 @@ Offensive or Defensive.
 Discard
 -------
 
--  If the player has *more than* 7 cards (≥8) in his/her hand the
+-  If the player has *more than* 7 cards in his/her hand the
    player\ *must* select and discard any excess cards down to 7.
 -  A player *may not*\ discard cards from hand in the discard phase if
    he/she has 7 or less cards in hand.

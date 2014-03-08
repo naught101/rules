@@ -32,12 +32,11 @@ Setting up the Game
 Number of Players
 ~~~~~~~~~~~~~~~~~
 
-Basic play only requires two players. The game also fully supports
-several `multiplayer formats <Quick Rules#Formats_&_Mods>`__ that allow
-three or more players to participate. A format is a specific rule set,
-which is either a variation of the core rules or almost new rules all
-together. They offer new exciting ways to play the game once you're
-acquainted with it and it's core rule system.
+Basic play only requires two players. The game also fully supports several
+:doc:`formats_and_mods` that allow three or more players to participate. A
+format is a specific rule set, which is either a variation of the core rules or
+almost new rules all together. They offer new exciting ways to play the game
+once you're acquainted with it and it's core rule system.
 
 For the sake of simplicity in the documentation and to flatten the
 learning curve we will stick to the most common setup in the world of

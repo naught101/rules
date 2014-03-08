@@ -72,5 +72,5 @@ Allies-prerequiste can not mark itself for that reason.
    How a player (un)marks cards is not decided by the rules or us behind WTactics due to legal reasons. It's up to the players to agree on it. In many CCG:s cards are rotated 90 degrees so that they lay down horizontally Rotating a card in this way is supposedly a patented idea in the U.S.A. To not violate patent(s) that protects that amazing invention we ''do not'' with this text want to give the idea that we encourage anyone to use that system to mark/unmark cards, and we also don't take any legal responsibility for players doing so.
    }}
 
-.. |The *Mark Me* symbol| image:: images/Mark.100x59.png
-.. |The mark allies symbol, here showing that 3 allies have to mark.| image:: images/M3.100x59.png
+.. |The *Mark Me* symbol| image:: images/Mark_100x59.png
+.. |The mark allies symbol, here showing that 3 allies have to mark.| image:: images/M3_100x59.png
