@@ -26,7 +26,6 @@ gh-pages:
 	@echo "Switching to gh-pages branch..."
 	make clean
 	# prompt for a commit message 
-	git commit -a
 	git push origin master
 	git checkout gh-pages
 	git merge -X theirs master
