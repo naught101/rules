@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Gold &amp; Resources &mdash; WTactics Rulebook 0.2.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="WTactics Rulebook 0.2.0 documentation" href="../index.html" />
+    <link rel="next" title="Prerequisites" href="prerequisites.html" />
+    <link rel="prev" title="Card Types" href="card_types.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="prerequisites.html" title="Prerequisites"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="card_types.html" title="Card Types"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="gold-resources">
+<h1>Gold &amp; Resources<a class="headerlink" href="#gold-resources" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="resource-cards">
+<h2>Resource Cards<a class="headerlink" href="#resource-cards" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Each card in WTactics can either be played face up, using it&#8217;s normal
+card text and functionality, or placed in the resource zone face
+down. All cards that are placed in the resource zone face down from
+the players hand become <em>Resource Cards</em> that produce gold.</li>
+<li>A player may only lay down one resource card into his/her resource
+zone per turn, and only during the players own play phase.</li>
+<li>A resource card produces 1 gold each <em>turn</em>, if and only if it
+becomes marked for that purpose.</li>
+<li>At the end of <em>turn</em> all leftover gold that hasn&#8217;t been used
+disappears: Gold can&#8217;t be accumulated in between turns.</li>
+<li>While it&#8217;s not mandatory to do so we recommend that the player stacks
+his/her resource cards in piles that are built by groups of 4
+resource cards. Resource cards 1 to 4 would be placed in the first
+pile, resource cards 5 to 8 in the second, and resource cards 9 to 12
+in the fourth resource pile. Using piles like that will make it
+easier to keep track of how much gold is available and how much is
+used.</li>
+</ul>
+<div class="section" id="recycling-resources">
+<h3>Recycling Resources<a class="headerlink" href="#recycling-resources" title="Permalink to this headline">¶</a></h3>
+<p>Once per turn, during your play phase, you are allowed to pick up
+<strong>exactly</strong> four resource cards from your resource zone and place them
+into your hand — if you have less than four resource cards, you can not
+recycle them this way. Cards that you pick up that way are no longer
+resource cards and count as any other cards in your hand.</p>
+<p>Notice that the rule that regulates the max size of the hand still
+applies: If you have more than the allowed hand size you have to discard
+cards down to it at the end of turn, during the discard phase.</p>
+</div>
+</div>
+<div class="section" id="card-costs">
+<h2>Card Costs<a class="headerlink" href="#card-costs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="normal-gold-costs">
+<h3>Normal Gold Costs<a class="headerlink" href="#normal-gold-costs" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<img alt="This card costs 5 gold.|101px" src="../_images/Goldcost.png" />
+</div>
+<ul class="simple">
+<li>All cards have a gold cost that has to be paid in order for the card
+to be able to enter play.</li>
+<li>Gold costs are printed with a huge number in the cards top right
+corner, inside of the faction symbol.</li>
+<li>Whenever it&#8217;s referred to a <em>cost(s)</em> it should be read as &#8220;gold
+cost(s)&#8221; - there are no other costs in the game! Yet, that does not
+mean that there can&#8217;t be any additional pre-requisites that has to be
+met for a card to be able to come into play.</li>
+<li>Usually the cost of a card ranges from 0 to 9.</li>
+</ul>
+</div>
+<div class="section" id="variable-gold-costs">
+<h3>Variable Gold Costs<a class="headerlink" href="#variable-gold-costs" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="cost-of-x">
+<h2>Cost of X<a class="headerlink" href="#cost-of-x" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="This card costs X gold.|101px" src="../_images/Xcost.png" />
+</div>
+<ul class="simple">
+<li>Apart from integers, a card can have a cost of <strong>X</strong>, as well as X
+with a modifier. If that is the case, X is always defined in the card
+text.<ul>
+<li>Example: A card costs X + 2. It&#8217;s text says that X is equal to the
+ATK value of the target creature. The target creature&#8217;s ATK is
+equal to 3, thus we&#8217;d have to pay 3 + 2 = 5 gold to play our card.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="cost-of-t">
+<h2>Cost of T<a class="headerlink" href="#cost-of-t" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<img alt="This card costs T gold.|101px" src="../_images/Tcost.png" />
+</div>
+<ul class="simple">
+<li>T is also around as a cost, as well as T with a modifier. T is always
+equal the <em>target cards</em> gold cost.<ul>
+<li>Example: A card costs T - 3. The target cards gold cost is 5,
+which means hat we have to pay 5 - 3 = 2 gold to put our card in
+play.</li>
+</ul>
+</li>
+<li>T reminds us of X, with the difference that it always takes into
+account one and the same type of variable no matter when or how it is
+played.</li>
+</ul>
+</div>
+<div class="section" id="paying-a-cost">
+<h2>Paying a cost<a class="headerlink" href="#paying-a-cost" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>The player looks at the card&#8217;s gold cost.</li>
+<li>The player then marks the corresponding amount of unmarked resource
+cards in order to produce that much gold.</li>
+<li>The card is put into play.</li>
+<li>The gold has now been spent.</li>
+<li>Additional cards can be played by repeating the steps above.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Gold &amp; Resources</a><ul>
+<li><a class="reference internal" href="#resource-cards">Resource Cards</a><ul>
+<li><a class="reference internal" href="#recycling-resources">Recycling Resources</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#card-costs">Card Costs</a><ul>
+<li><a class="reference internal" href="#normal-gold-costs">Normal Gold Costs</a></li>
+<li><a class="reference internal" href="#variable-gold-costs">Variable Gold Costs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cost-of-x">Cost of X</a></li>
+<li><a class="reference internal" href="#cost-of-t">Cost of T</a></li>
+<li><a class="reference internal" href="#paying-a-cost">Paying a cost</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="card_types.html"
+                        title="previous chapter">Card Types</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="prerequisites.html"
+                        title="next chapter">Prerequisites</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/quickstart/gold_and_resources.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="prerequisites.html" title="Prerequisites"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="card_types.html" title="Card Types"
+             >previous</a> |</li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, WTactics Community.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

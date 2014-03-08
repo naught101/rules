@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Developer Notes &mdash; WTactics Rulebook 0.2.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="WTactics Rulebook 0.2.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="developer-notes">
+<h1>Developer Notes<a class="headerlink" href="#developer-notes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="todo">
+<h2>Todo<a class="headerlink" href="#todo" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>More love to the explanation of the combat process.</li>
+<li>Add a section explaining the stack.</li>
+<li>Explain when a player can interrupt the other one by playing an Event
+or using a card&#8217;s ability etc.</li>
+<li>Initiative system may need some simplification.</li>
+</ul>
+</div>
+<div class="section" id="magic-types">
+<h2>Magic types<a class="headerlink" href="#magic-types" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="rituals">
+<h3>Rituals<a class="headerlink" href="#rituals" title="Permalink to this headline">¶</a></h3>
+<p>Rituals are powerful spells that need their casters to <em>charge them</em>
+fully before they can be unleashed. This is a game technical
+representation of wizards meditating deeply, shamans doing their rites,
+tribal dances and other activities that involve more long term
+preparations to perform a magical act.</p>
+<ul class="simple">
+<li>Every ritual has a <em>charge capacitor number</em> printed in letter,
+followed by the Rituals effect.</li>
+<li>The charge capacitor starts out empty (no tokens on the card) when
+the Ritual is placed on a resource pile.</li>
+<li>The player may charge any amount of the rituals on his/her own
+resource piles.</li>
+<li>A ritual may only be charged <em>once per turn</em> and while it is on a
+resource pile.</li>
+<li>Charging is done by placing a <em>charge token</em> on the ritual during the
+<em>upkeep phase</em>.</li>
+<li>The player can choose to <em>not</em> charge a ritual during the upkeep
+phase.</li>
+<li>A ritual can&#8217;t be charged beyond it&#8217;s capacitor: If it&#8217;s charge
+capacitor number is 3 then and it already has 3 charges on it that
+Ritual can&#8217;t get a 4:th charge.</li>
+<li>A ritual can only come into play from the resource pile when it&#8217;s
+charge capacitor is full.</li>
+<li>When it comes into play the player removes all of it&#8217;s charges.</li>
+<li>If a ritual should somehow be removed from the queue in any other way
+than it coming into play, it will <em>lose</em> all of it&#8217;s charges.</li>
+</ul>
+</div>
+<div class="section" id="mounts">
+<h3>Mounts<a class="headerlink" href="#mounts" title="Permalink to this headline">¶</a></h3>
+<p>TODO: Mounts will most likely not be in the core set, if at all. Need
+very heavy playtesting to become a card type on their own.</p>
+<p>Many intelligent enough creatures have mastered the art to tame and ride
+members of other species. The <em>mounts</em> are used as tools and companions
+by the inhabitants of Irdya, they&#8217;re there to serve their owners,
+willingly or not.</p>
+<ol class="arabic simple">
+<li>To play a mount it&#8217;s gold cost must be paid and it must also meet the
+faction prerequisites (one or more creatures under your control in
+the front where you want to play the mount must share faction with
+the mount).</li>
+<li>Mounts are a subtype to the creature type.</li>
+<li>Mounts can only be mounted by a non-mount creature. A mount may only
+carry one creature.</li>
+<li>The creature that uses a mount is defined as it&#8217;s <em>rider</em>.</li>
+<li>Mounts can never attack if they lack a rider.</li>
+<li>Mounts can however always be used to <em>block</em> incoming attacks, even
+if they lack rider.</li>
+<li>Mounts have abilities, but they&#8217;re usually only in effect when
+they&#8217;re mounted. In some cases they&#8217;re transferred to whoever is
+riding them.</li>
+<li>When an opponent wants to target a creature that is riding a mount
+he/she must target the mount instead.</li>
+<li>When riders on a mount are in combat it&#8217;s the mounts combat stats
+that are used, not the riders.</li>
+<li>Riders can still use their normal abilities.</li>
+<li>When a mount is killed damage always spills over/tramples to the
+creature that was riding it. (But the rider doesn&#8217;t strike back.)</li>
+<li>When mounts die the rider &#8220;falls off&#8221;, getting marked if (s)he wasn&#8217;t
+already.</li>
+<li>Hopping up on a mount marks both rider and mount. Hopping off does
+<em>not</em> mark the rider.</li>
+</ol>
+</div>
+<div class="section" id="heroes">
+<h3>Heroes<a class="headerlink" href="#heroes" title="Permalink to this headline">¶</a></h3>
+<p>Heroes are prominent and renown characters in special leading positions
+within each faction. Each player brings <em>one</em> single Hero to the game
+that is already in play for free when the game starts. The Hero is a
+representation of the player and will be around for the duration of the
+game.</p>
+<p>Hero cards have the following info on them:</p>
+<ul class="simple">
+<li><strong>Abilities</strong> and skills that the Hero knows.</li>
+<li><strong>Loyalty points</strong> that the Hero brings with him/her for a certain
+faction.</li>
+<li><strong>Victory Points</strong> required for you to win the game. <strong>*</strong></li>
+<li><em>&#8216;Influence</em> Amount of influence you start the game with. If you
+reach 0 influence you lose the game. This is also the maximal amount
+of influence you can ever reach with that hero, regardless of card
+effects.</li>
+<li><strong>Hand size</strong>, the maximum number of cards you may have in hand at
+the end of your turn.</li>
+<li><strong>Starting Resources</strong>, amount of resource cards you are allowed to
+put down on the table during the first time you play resources.</li>
+<li><strong>Default army</strong> total cost of your basic startup army on the table.
+If the Hero is multi-factioned each faction will have it&#8217;s own max
+value allowed in the default army.</li>
+</ul>
+<p><strong>Heroes are not:</strong></p>
+<ul class="simple">
+<li>Considered to be Creatures - they are a special card type on their
+own. They Are always unaffected by cards and abilities that somehow
+affect Creatures. They can&#8217;t be selected as &#8220;target creature&#8221; or be
+equipped.</li>
+<li>Having any ATK/DEF values, can&#8217;t attack or defend in any capacity.</li>
+<li>Able to move or be within the Offensive or Defensive fronts.</li>
+<li>Able to mark/unmark/assign or be unassigned.</li>
+</ul>
+</div>
+<div class="section" id="abilities">
+<h3>Abilities<a class="headerlink" href="#abilities" title="Permalink to this headline">¶</a></h3>
+<p>Every Hero has a set of 0 to 4 abilities he/she will allow you to use if
+you can during your own turn if you just pay the price and meet the
+pre-requisites. The abilities are usually powerful and versatile. As a
+result of that you may only use one single Hero ability per turn, and
+only use it once.</p>
+<p>Passive and triggered Hero abilities are however always in effect as
+they would have been on a normal creature.</p>
+</div>
+<div class="section" id="loyalty-points">
+<h3>Loyalty Points<a class="headerlink" href="#loyalty-points" title="Permalink to this headline">¶</a></h3>
+<p>All Heroes are strongly connected to a faction to which they pledge
+their loyalty. The faction they are most loyal to and can identify the
+strongest with is called the Hero&#8217;s <em>Primary Faction</em>. While it is less
+common, a Hero can have ties to more than just one faction, and could
+for instance have connections to a Secondary or even a Tertiary faction.
+Heroes bring with them <em>Loyalty Points</em> for each individual faction they
+are associated with. The higher the point, the more powerful cards you
+will be able to play from that faction during the game. The <em>Loyalty
+Points</em> (LPs) vary from 1 up to 3.</p>
+</div>
+<div class="section" id="countering">
+<h3>Countering<a class="headerlink" href="#countering" title="Permalink to this headline">¶</a></h3>
+<p>Many Heroes are at least as knowledgeable as their opponents and have
+the ability to <em>counter</em> any of their&#8217;&#8217; activated abilities&#8217;&#8216;, meaning
+the ones that cost gold to activate. When that happens the effects of
+the ability are nullified and nothing happens. Here is how to do it:</p>
+</div>
+</div>
+<div class="section" id="prerequisite">
+<h2>Prerequisite<a class="headerlink" href="#prerequisite" title="Permalink to this headline">¶</a></h2>
+<p>In order to be able to counter an enemy Hero&#8217;s acivated gold cost
+ability you need to make sure the following can be met. You have to have
+at least:</p>
+<ol class="arabic simple">
+<li>Spendable gold equal to the cost for the enemy Hero&#8217;s ability + 1.
+Example: If enemy Hero tries to use an ability that costs 5 gold, you
+need to make sure you have at least 6 gold available that you can
+spend on the counter.</li>
+<li>1 unused resource card left after paying the countering gold cost.</li>
+<li>1 card in hand.</li>
+</ol>
+</div>
+<div class="section" id="executing-the-counter">
+<h2>Executing the counter<a class="headerlink" href="#executing-the-counter" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Pay the cost for the enemy Hero&#8217;s ability + 1 gold.</li>
+<li>Sacrifice 1 unused resource card.</li>
+<li>Discard 1 random card from your hand.</li>
+</ol>
+<p>Congratulations! You have now successfully countered the ability of the
+enemy Hero for the remainder of that turn.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Developer Notes</a><ul>
+<li><a class="reference internal" href="#todo">Todo</a></li>
+<li><a class="reference internal" href="#magic-types">Magic types</a><ul>
+<li><a class="reference internal" href="#rituals">Rituals</a></li>
+<li><a class="reference internal" href="#mounts">Mounts</a></li>
+<li><a class="reference internal" href="#heroes">Heroes</a></li>
+<li><a class="reference internal" href="#abilities">Abilities</a></li>
+<li><a class="reference internal" href="#loyalty-points">Loyalty Points</a></li>
+<li><a class="reference internal" href="#countering">Countering</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#prerequisite">Prerequisite</a></li>
+<li><a class="reference internal" href="#executing-the-counter">Executing the counter</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/quickstart/developer_notes.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, WTactics Community.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>

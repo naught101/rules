@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Abilities &mdash; WTactics Rulebook 0.2.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="WTactics Rulebook 0.2.0 documentation" href="../index.html" />
+    <link rel="next" title="Combat" href="combat.html" />
+    <link rel="prev" title="Round Structure" href="round_structure.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="combat.html" title="Combat"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="round_structure.html" title="Round Structure"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="abilities">
+<h1>Abilities<a class="headerlink" href="#abilities" title="Permalink to this headline">¶</a></h1>
+<p>Many creatures have special skills and some are able to perform
+different kind of actions. There are numerous ways how the creatures can
+interact with one and another without engaging in actual physical
+combat. These skills are called <em>abilities</em>, regardless of what they do,
+and if they have any drawbacks or not.</p>
+<p>Abilities are not limited to just creatures – Equipment or Magic could
+have them as well, granting a creature additional abilities they
+wouldn&#8217;t have without them.</p>
+<p>There are three main types of abilities : activated, passive and
+triggered.</p>
+<div class="section" id="the-golden-rule">
+<h2>The Golden Rule<a class="headerlink" href="#the-golden-rule" title="Permalink to this headline">¶</a></h2>
+<p>When ever a card&#8217;s abilities seem to contradict the official game rules, treat
+that ability as if <em>it</em> were the official game rule instead.</p>
+</div>
+<div class="section" id="passive">
+<h2>Passive<a class="headerlink" href="#passive" title="Permalink to this headline">¶</a></h2>
+<p>A passive ability is one that is always in effect. As soon as the object
+with the ability enters play, the ability effect starts, and stops when
+the object leaves play.</p>
+<p>Example: &#8220;All Elvish creatures gets +3 defense&#8221; is a passive ability.</p>
+</div>
+<div class="section" id="activated">
+<h2>Activated<a class="headerlink" href="#activated" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>In contrast to passive abilities, activated abilities requires the
+activation by the player.</li>
+<li>To use a card&#8217;s ability the player must pay the cost required. The
+effect of the ability will not activate before that is done.</li>
+<li>Only the controller of a card may activate it&#8217;s abilities. Usually
+that means the player that put the card in play by paying for it.</li>
+</ul>
+<div class="section" id="payment-for-activation">
+<h3>Payment for activation<a class="headerlink" href="#payment-for-activation" title="Permalink to this headline">¶</a></h3>
+<p>WTactics uses the above simple system to tell you what the card demands
+from you in order to have it&#8217;s effect activated. What&#8217;s always common
+for all types of costs and prerequisites is that we always reveal the
+cost first, followed by a colon separator, and lastly the effect is
+written. It looks like this:</p>
+<p><tt class="docutils literal"><span class="pre">Cost&nbsp;:&nbsp;Effect</span></tt></p>
+<p>Whatever is on the left side of the colon (:) is the cost or
+prerequisites. The text on the right side of the colon is the card&#8217;s
+effect that will activate once you have met the cost/prerequisites
+demands.</p>
+<p>There are three main groups of costs and prerequisites that are used to
+activate abilities: Gold cost, mark (self or other) and custom.</p>
+<div class="figure">
+<img alt="Costs and pre types.jpg" src="../_images/Costs_and_pre_types.jpg" />
+</div>
+<ol class="arabic simple">
+<li>The first example (gray) shows us a <em>custom prerequisite</em>. Custom
+prerequisites are often text instructions on what you need to do in
+order to activate the ability. If you can&#8217;t or won&#8217;t do <em>exactly</em> as
+the text says, then the ability is not activated. Keep in mind that
+custom prerequisites can be formulated in any way. They are also more
+rarely used in the game compared to the other types of costs &amp;
+prerequisites.</li>
+<li>The next example (purple) is straight forward: To activate the
+ability you would need to pay exactly 4 Gold. Not more, not less. If
+you can&#8217;t afford 4 gold, then you can&#8217;t activate the ability.</li>
+<li>The third example (blue) introduces <em>marking</em> as something that must
+be done first in order to activate the ability. Whenever you see the
+empty horizontal rectangle it means that in order to activate the
+ability you must be able to <em>mark</em> the card. If the card is already
+marked, it can&#8217;t be marked again, thus, the requirement needed to use
+that ability (you marking the card now when you want to use the
+ability) is not met, and as a result you won&#8217;t be able to activate
+the ability.</li>
+<li>Next example (green) also uses marking as a requirement to activate
+the ability. The difference from the previous case is that there is a
+number written inside of the rectangle. This means that you have to
+mark that many <em>other</em> creatures in play under your control in order
+to activate the ability.</li>
+<li>Lastly, we have a complicated example (yellow): It shows us that a
+card can mix any two or more types of costs and prerequisites with
+each other. Although there is no limitation to how they can be mixed,
+mixes are seldom as complicated as in this example.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="triggered">
+<h2>Triggered<a class="headerlink" href="#triggered" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>A triggered ability is activated if and only if it&#8217;s trigger takes
+place.</li>
+<li>Triggered abilities are <em>not</em> optional and must always be applied if
+possible.<ul>
+<li>If a triggered ability&#8217;s effect can&#8217;t be applied then nothing
+happens.</li>
+</ul>
+</li>
+<li>Example: Discard a non-Black Legion creature every time a skeleton
+comes into play.<ul>
+<li>If my opponent played that curse on you, and your opponent puts a
+skeleton into play, then you <em>must</em> discard a non-Black creature.
+If you have only black creatures however, then it is not possible
+for you to discard a creature, in which case you don&#8217;t have to do
+anything.</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Abilities</a><ul>
+<li><a class="reference internal" href="#the-golden-rule">The Golden Rule</a></li>
+<li><a class="reference internal" href="#passive">Passive</a></li>
+<li><a class="reference internal" href="#activated">Activated</a><ul>
+<li><a class="reference internal" href="#payment-for-activation">Payment for activation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#triggered">Triggered</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="round_structure.html"
+                        title="previous chapter">Round Structure</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="combat.html"
+                        title="next chapter">Combat</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../_sources/quickstart/abilities.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="combat.html" title="Combat"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="round_structure.html" title="Round Structure"
+             >previous</a> |</li>
+        <li><a href="../index.html">WTactics Rulebook 0.2.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, WTactics Community.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.1.
+    </div>
+  </body>
+</html>
