@@ -1,4 +1,4 @@
-:orphan: Belongs in developer docs, not end-user docs
+:orphan: will move to a developer section at some point
 
 ==========
 Disclaimer 

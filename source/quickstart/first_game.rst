@@ -1,4 +1,6 @@
-:orphan:
+:orphan: I'm not sure any of this is needed. Perhaps a separate "Playing your
+         first TCG" guide might make sense, but this is a bit verbose for your
+         general reader.
 
 ==============
 The First Game

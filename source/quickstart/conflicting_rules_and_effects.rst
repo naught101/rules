@@ -1,4 +1,4 @@
-:orphan:
+:orphan: Summarized and moved to :doc:`abilities`
 
 ===========================
 Conflicting Rules & Effects
