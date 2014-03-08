@@ -1,4 +1,5 @@
-Conflicting rules & effects
+===========================
+Conflicting Rules & Effects
 ===========================
 
 As in many card games, some rules & effects in WTactics may seem to

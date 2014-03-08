@@ -1,4 +1,5 @@
-The first game
+==============
+The First Game
 ==============
 
 Learning a customizable card game is fun. To many, playing CCG:s is also

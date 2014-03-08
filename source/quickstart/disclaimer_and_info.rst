@@ -1,7 +1,8 @@
 :orphan: Belongs in developer docs, not end-user docs
 
-Disclaimer & info
------------------
+==========
+Disclaimer 
+==========
 
 -  Lingual edits are allowed by anyone as long as they keep the
    semantics and logic of the game, the intention of a rule and so on,

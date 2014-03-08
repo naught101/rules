@@ -1,4 +1,5 @@
-Developers note
+===============
+Developer Notes
 ===============
 
 .. raw:: mediawiki
