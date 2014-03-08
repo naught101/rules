@@ -6,6 +6,12 @@ WTactics Quick Start Guide
    development.
 
 .. toctree::
+   :glob:
+   :hidden:
+
+   quickstart/*
+
+.. toctree::
    :titlesonly:
 
    quickstart/intro
@@ -19,6 +25,3 @@ WTactics Quick Start Guide
    quickstart/conflicting_rules_and_effects
    quickstart/combat
    quickstart/deck_building
-   quickstart/first_game
-   quickstart/developer_notes
-   quickstart/formats_and_mods
