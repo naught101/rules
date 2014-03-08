@@ -27,7 +27,8 @@ gh-pages:
 	make clean
 	# prompt for a commit message 
 	git push origin master
-	git checkout -b gh-pages
+	git checkout gh-pages
+	make clean
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
 	@echo "Build finished. The html pages are in the gh-pages branch's root."
 	git add .
@@ -35,7 +36,6 @@ gh-pages:
 	git push -f origin gh-pages
 	@echo "Documentation published: wtactics.github.com/rulebook/"
 	git checkout master
-	git branch -D gh-pages
 
 
 clean:

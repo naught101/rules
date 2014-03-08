@@ -6,12 +6,6 @@ WTactics Quick Start Guide
    development.
 
 .. toctree::
-   :glob:
-   :hidden:
-
-   quickstart/*
-
-.. toctree::
    :titlesonly:
 
    quickstart/intro
