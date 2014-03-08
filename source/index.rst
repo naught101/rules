@@ -22,6 +22,5 @@ WTactics Quick Start Guide
    quickstart/assigning
    quickstart/round_structure
    quickstart/abilities
-   quickstart/conflicting_rules_and_effects
    quickstart/combat
    quickstart/deck_building

@@ -14,6 +14,15 @@ wouldn't have without them.
 There are three main types of abilities : activated, passive and
 triggered.
 
+The Golden Rule
+---------------
+.. todo:: determine if effects vs effects is even worth mentioning, or if this
+          is a non-issue, as cards should strive to be unambigious as possible
+          (or should they?).
+
+When ever a card's abilities seem to contradict the official game rules, treat
+that ability as if *it* were the official game rule instead.
+
 Passive
 -------
 
