@@ -4,7 +4,9 @@ WTactics Quick Start Guide
 .. warning:: 
    This is an expirimental build of this document, which is under rapid
    development.
-
+   
+   The official documentation is hosted on the WTactics Wiki.
+   
 .. toctree::
    :titlesonly:
 
